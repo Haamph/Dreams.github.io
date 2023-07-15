@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Noto+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* common head part css start */
+
+.common_head {
+  text-align: center;
+}
+
+.common_head h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+.common_head span {
+  display: inline-block;
+  width: 110px;
+  height: 2.5px;
+  background: #36a9d5;
+  margin-bottom: 55px;
+}
+
+/* common head part css end */
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* service part css start */
+
+.service {
+  padding: 100px;
+}
+
+.ser_content {
+  text-align: center;
+}
+
+.ser_content img {
+  padding-bottom: 25px;
+}
+
+.ser_content h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.ser_content p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+/* service part css end */
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* expertise part css start */
+
+.expertise {
+  background: #ddd;
+}
+
+.exp_content {
+  padding: 100px 0;
+  margin-right: 30px;
+}
+
+.exp_content h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.exp_content p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 55px;
+}
+
+.exp_content .exp_icon {
+  text-align: center;
+}
+
+.exp_content .exp_icon img {
+  width: 48px;
+}
+
+.exp_content .exp_text {
+  text-align: left;
+}
+
+.exp_content .exp_text h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.exp_content .exp_text p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #a0a0a0;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.exp_content a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px 35px;
+  background: #fff;
+  border: .5px solid #36a9d5;
+  border-radius: 30px;
+}
+
+.exp_bg {
+  background: url(../image/exp_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* expertise part css end */
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* portfolio info part css start */
+
+.port_info {
+  padding: 100px 0;
+}
+
+.pf_content {
+  text-align: left;
+  background: url(../image/user.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pf_content h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+.pf_content p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+.pf_content .pf_icon {
+  text-align: center;
+}
+
+.pf_content .pf_icon img {
+  width: 48px;
+}
+
+.pf_content .pf_text h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.pf_content .pf_text p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-bottom: 25px;
+}
+
+/* portfolio info part css end */
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* about part css start */
+
+.about {
+  padding: 100px 0;
+}
+
+.abt_text_right {
+  text-align: right;
+  padding: 25px 10px;
+}
+
+.line_parent {
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+  width: 3px;
+  height: 130px;
+  background: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.abt_text_left {
+  text-align: left;
+  padding: 25px 10px;
+}
+
+.abt_text_right h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.abt_text_right h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.abt_text_right p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.abt_text_left h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.abt_text_left h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.abt_text_left p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.abt_img {
+  text-align: center;
+}
+
+/* about part css end */
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* team part css start */
+
+.team {
+  padding: 100px 0;
+  background: #f7f7f7;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+}
+
+.team_content {
+  text-align: center;
+}
+
+.team_content .person {
+  padding-bottom: 25px;
+}
+
+.team_content h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.team_content p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.team_content .team_icon a {
+  display: inline-block;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 0 7px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.motto {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+/* team part css end */

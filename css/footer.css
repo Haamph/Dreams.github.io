@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Noto+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* footer part css start */
+
+footer {
+  padding: 100px 0;
+  background: #000;
+}
+
+.ftr_content h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.ftr_content p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.ftr_icon {
+  text-align: center;
+}
+
+.ftr_text a {
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: lowercase;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.ftr_input input,
+textarea {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: none;
+  border-radius: 7px;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.ftr_input input::placeholder {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.ftr_input textarea::placeholder {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.ftr_input textarea {
+  resize: none;
+  height: 150px;
+}
+
+.ftr_input button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 35px;
+  background: #36a9d5;
+  border: none;
+  border-radius: 30px
+}
+
+.copy {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.copy span {
+  display: inline-block;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+}
+
+.copy p {
+  padding: 20px 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.copy p a {
+  color: #fff;
+}
+
+/* footer part css end */
