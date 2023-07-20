@@ -55,7 +55,7 @@ font-family: 'Noto Sans', sans-serif;
 /* service part css start */
 
 .service {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .ser_content {
@@ -250,18 +250,6 @@ font-family: 'Noto Sans', sans-serif;
 .abt_text_right {
   text-align: right;
   padding: 25px 10px;
-}
-
-.line_parent {
-  text-align: center;
-}
-
-.line {
-  display: inline-block;
-  width: 3px;
-  height: 130px;
-  background: #f1f1f1;
-  margin-bottom: 10px;
 }
 
 .abt_text_left {

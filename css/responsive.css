@@ -1,0 +1,529 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 380px) and (max-width: 575px) {
+
+  /* navbar part css start */
+
+  .navbar-nav .nav-item {
+    text-align: right;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner {
+    padding: 120px 0;
+  }
+
+  .banner_content h4 {
+    font-size: 35px;
+  }
+
+  .banner_content p {
+    font-size: 15px;
+  }
+
+  /* banner part css end */
+
+  /* common head part css start */
+
+  .common_head h4 {
+    font-size: 30px;
+  }
+
+  /* common head part css end */
+
+  /* service part css start */
+
+  .service {
+    padding: 75px 0;
+  }
+
+  /* service part css end */
+
+  /* expwrtise part css start */
+
+  .exp_content {
+    padding: 75px 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .exp_content h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .exp_content p {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .exp_content .exp_icon img {
+    width: 60px;
+    padding-bottom: 28px;
+  }
+
+  .exp_content .exp_text {
+    text-align: center;
+  }
+
+  .exp_content .exp_text h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .exp_content .exp_text p {
+    font-size: 15px;
+    padding-bottom: 35px;
+  }
+
+  .exp_content a {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+
+  /* expwrtise part css end */
+
+  /* porfolio info part css start */
+
+  .port_info {
+    padding: 75px 0;
+  }
+
+  .pf_content {
+    text-align: center;
+  }
+
+  .pf_content h4 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .pf_content p {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .pf_content .pf_icon img {
+    width: 60px;
+    padding-bottom: 28px;
+  }
+
+  .pf_content .pf_text {
+    text-align: center;
+  }
+
+  .pf_content .pf_text h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .pf_content .pf_text p {
+    font-size: 15px;
+    padding-bottom: 35px;
+  }
+
+  .xsm_hide {
+    display: none;
+  }
+
+  /* porfolio info part css end */
+
+  /* about part css start */
+
+  .abt_img {
+    padding-bottom: 30px;
+  }
+
+  .abt_img .img-fluid {
+    max-width: 50%;
+  }
+
+  /* about part css end */
+
+  /* team part css start */
+
+  .team {
+    padding: 75px 0;
+    background: #f7f7f7;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team_content {
+    margin: 30px 0;
+  }
+
+  /* team part css end */
+
+  /* footer part css start */
+
+  footer {
+    padding: 60px 0;
+  }
+
+  .ftr_content h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .ftr_content p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .ftr_text a {
+    text-align: left;
+  }
+
+  .ftr_input {
+    text-align: center;
+  }
+
+  .ftr_input button {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+
+  .copy p {
+    margin: 0;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* navbar part css start */
+
+  .navbar-nav .nav-item {
+    text-align: right;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner {
+    padding: 90px 0;
+  }
+
+  .banner_content h4 {
+    font-size: 40px;
+  }
+
+  .banner_content p {
+    font-size: 16px;
+  }
+
+  /* banner part css end */
+
+  /* common head part css start */
+
+  .common_head h4 {
+    font-size: 30px;
+  }
+
+  /* common head part css end */
+
+  /* service part css start */
+
+  .service {
+    padding: 70px 0;
+  }
+
+  .ser_content {
+    padding: 0 20px;
+  }
+
+  /* service part css end */
+
+  /* expertise part css start */
+
+  .exp_content {
+    padding: 70px 0;
+    margin-right: 0px;
+  }
+
+  .exp_content h4 {
+    font-size: 30px;
+  }
+
+  .exp_content p {
+    font-size: 14px;
+  }
+
+  .exp_content .exp_icon img {
+    width: 58px;
+  }
+
+  .exp_content a {
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 15px 30px;
+  }
+
+  /* expertise part css end */
+
+  /* protfolio part css start */
+
+  .port_info {
+    padding: 40px 0;
+  }
+
+  .pf_content h4 {
+    font-size: 30px;
+  }
+
+  .pf_content p {
+    font-size: 14px;
+  }
+
+  .pf_content .pf_icon img {
+    width: 58px;
+  }
+
+  .sm_hide {
+    display: none;
+  }
+
+  /* protfolio part css end */
+
+  /* about part css start */
+
+  .abt_img {
+    padding: 25px 0;
+  }
+
+  .abt_img .img-fluid {
+    max-width: 50%;
+  }
+
+  /* about part css end */
+
+  /* team part css start */
+
+  .team {
+    padding: 40px 0;
+  }
+
+  .team_content {
+    padding-bottom: 30px;
+  }
+
+  .right {
+    justify-content: center;
+  }
+
+  .left {
+    justify-content: center;
+  }
+
+  .team_content h4 {
+    font-size: 18px;
+  }
+
+  .team_content p {
+    font-size: 15px;
+  }
+
+  .team_content .team_icon a {
+    line-height: 40px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .motto {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  /* team part css end */
+
+  /* footer part css start */
+
+  footer {
+    padding: 40px 0;
+  }
+
+  .ftr_content h4 {
+    font-size: 30px;
+  }
+
+  .ftr_content p {
+    font-size: 13px;
+    margin-bottom: 35px;
+  }
+
+  .ftr_input {
+    text-align: center;
+  }
+
+  .ftr_input button {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+
+  .copy {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* navbar part css start */
+
+  .navbar-nav .nav-item {
+    text-align: right;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner {
+    padding: 180px 0;
+  }
+
+  .banner_content h4 {
+    font-size: 40px;
+  }
+
+  .banner_content p {
+    font-size: 18px;
+  }
+
+  /* banner part css end */
+
+  /* common head part css start */
+
+  .common_head h4 {
+    font-size: 35px;
+    margin-bottom: 35px;
+  }
+
+  /* common head part css end */
+
+  /* service part css start */
+
+  .service {
+    padding: 70px 0;
+  }
+
+  .ser_content img {
+    width: 55%;
+  }
+
+  /* service part css end */
+
+  /* expertise part css start */
+
+  .exp_content {
+    padding: 70px 0;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+
+  .exp_content h4 {
+    font-size: 35px;
+  }
+
+  .exp_content p {
+    font-size: 15px;
+    margin-bottom: 45px;
+  }
+
+  /* expertise part css end */
+
+  /* portfolio info part css start */
+
+  .port_info {
+    padding: 70px 0;
+    padding-left: 10px;
+  }
+
+  .pf_content h4 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .pf_content p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .pf_content .pf_text h4 {
+    font-size: 15px;
+  }
+
+  /* portfolio info part css end */
+
+  /* about part css start */
+
+  .abt_img {
+    padding-top: 20px;
+  }
+
+  .abt_img .img-fluid {
+    max-width: 70%;
+  }
+
+  /* about part css end */
+
+  /* team part css start */
+
+  .team {
+    padding: 70px 0;
+  }
+
+  /* team part css end */
+
+  /* footer part css start */
+
+  footer {
+    padding: 70px 0;
+  }
+
+  .copy {
+    margin-top: 50px;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* portfolio part css start */
+
+  .xsm_hide {
+    display: none;
+  }
+
+  /* portfolio part css end */
+
+}
